@@ -1252,10 +1252,14 @@ pre code {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
   }
-  .col-lg-6 {
-    display: flex;
+  .col-lg-6{
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .col-lg-6 .img-fluid{
+    flex: 0 0 50%;
+    max-width: 100%;
+    max-height: 250px;
   }
   .col-lg-7 {
     flex: 0 0 58.33333%;
